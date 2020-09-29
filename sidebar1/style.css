@@ -1,0 +1,105 @@
+body {
+    
+    margin: 0px;
+    padding: 0px;
+    
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+    background-color: #b6dba4;
+    color: Black;
+    
+    font-family: 'Arial', sans-serif;
+    
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    padding: 0px;
+    margin: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+a {
+    color: Blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: Blue;
+    text-decoration: underline;
+}
+
+.container {
+    
+    width: 100%;
+    max-width: 1000px;
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: rgba(255,255,255,0.3);
+    overflow-y: auto;
+    
+}
+
+.container .inner {
+    padding: 25px;
+}
+
+.container-invisible {
+    
+    width: 100%;
+    max-width: 1000px;
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    overflow-y: auto;
+    
+}
+
+.sidebar {
+    display: block;
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+}
+
+.content {
+    display: block;
+    width: calc(100% - 315px);
+    float: right;
+}
+
+.box {
+    
+    display: block;
+    width: calc(100% - 30px);
+    
+    margin-bottom: 15px;
+    padding: 15px;
+    
+    background-color: rgba(255,255,255,0.3);
+    
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .sidebar {
+        width: 100%;
+        display: block;
+        float: none;
+    }
+    
+    .content {
+        width: 100%;
+        display: block;
+        float: none;
+    }
+    
+}

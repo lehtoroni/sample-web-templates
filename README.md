@@ -1,5 +1,5 @@
 # sample-web-templates
-Responsive HTML templates for beginners (or lazy people like me)
+Semi-responsive HTML templates for beginners (or lazy people like me)
 
 # Editing
 Feel free to adapt these to your own projects. Every template folder contains two files: index.html and style.css. The style.css file contains information about how the page should look, while the index.html file is the page itself.
